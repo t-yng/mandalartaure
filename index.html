@@ -1,0 +1,204 @@
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Mandalartaure</title>
+
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/build/dist/jquery.jfeed.js"></script>
+</head>
+
+<body>
+
+	<h1>マンダラートの自動生成ツール（やっつけβ版）</h1>
+	<p>
+	<input type="text" name="keyword" value="健康">
+	<button type="button" name="send_btn" onclick="generate();">関連語検索</button>
+	</p>
+
+	<table id="mandalart" class="out" cellspacing="0" cellpadding="0">
+		<tr>
+			<td >
+				<table id="0" class="in">
+					<tr>
+						<td ></td>
+						<td ></td>
+						<td ></td>
+					</tr>
+					<tr>
+						<td ></td>
+						<td ></td>
+						<td ></td>
+					</tr>
+					<tr>
+						<td ></td>
+						<td ></td>
+						<td></td>
+					</tr>
+				</table>
+			</td>	
+			<td>
+				<table id="1" class="in">
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table id="2" class="in">
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table id="3" class="in">
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</td>	
+			<td>
+				<table id="4" class="in">
+					<tr>
+						<td ></td>
+						<td ></td>
+						<td ></td>
+					</tr>
+					<tr>
+						<td ></td>
+						<td ></td>
+						<td ></td>
+					</tr>
+					<tr>
+						<td ></td>
+						<td ></td>
+						<td ></td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table id="5" class="in">
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table id="6" class="in">
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</td>	
+			<td>
+				<table id="7" class="in">
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</td>
+			<td>
+				<table id="8" class="in">
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+
+</body>
+
+<script type="text/javascript" src="js/mandalartaure.js"></script>
+
+</html>
