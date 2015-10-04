@@ -1,0 +1,22 @@
+table{
+	border-collapse: collapse;
+	padding: 0;
+	table-layout: fixed;
+}
+
+td{
+	border: solid 1px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+
+div{
+	width: 600px;
+	margin: auto;
+}
+
+body{
+	text-align:center;
+	width: 100%;
+}
